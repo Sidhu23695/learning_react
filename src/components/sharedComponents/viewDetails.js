@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Table } from '../index';
 import { Link } from 'react-router-dom';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import { getUsers } from '../../actions/index';
 
 class ViewDetails extends React.Component {

@@ -13,6 +13,15 @@ const reducer = (state = initialState, action) => {
                 ...state, 
                 users: action.response
             };
+        case 'SAVE_USER':
+            return { 
+                ...state 
+            };
+        case 'USER_SAVED':
+            return { 
+                ...state ,
+                userSaved: true
+            };
         default: 
             return state;
     }
